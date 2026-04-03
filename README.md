@@ -34,10 +34,10 @@ A comparison is performed between:
 - FinFET provides better performance than planar CMOS at scaled nodes
 
 ## 🧠 Concepts Covered
-- Short Channel Effects
-- FinFET Structure
-- Drive Strength vs Number of Fins
-- Switching Delay Analys
+- Short Channel Effects in nanoscale devices  
+- FinFET structure and electrostatic control  
+- Impact of fin count on drive strength  
+- Switching delay and transient response analysis  
 
 ## 🚀 Conclusion
 FinFET technology offers superior performance in terms of speed and scalability compared to traditional CMOS technology.
