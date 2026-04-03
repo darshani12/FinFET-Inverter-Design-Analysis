@@ -55,7 +55,7 @@ The output waveform confirms correct inverter operation:
 Increasing the number of fins improves drive strength, resulting in faster charging/discharging of the load capacitance and reduced propagation delay.
 
 ## 🧩 Layout Design
-![Layout](images/Inverter Layout.png)
+![Layout](images/InverterLayout.png)
 
 ---
 
