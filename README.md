@@ -14,28 +14,60 @@ A comparison is performed between:
 
 The inverter is implemented using FinFET PMOS and NMOS transistors.
 
+## 📊 Transient Analysis
+![Transient](images/transient_response.png)
+
+The output waveform confirms correct inverter operation:
+- Input HIGH → Output LOW  
+- Input LOW → Output HIGH  
+
 ---
 
+## ⬆️ Rise Time Analysis
+
+### 2-Fin
+![Rise 2 Fin](images/rise_2fin.png)
+
+### 4-Fin
+![Rise 4 Fin](images/rise_4fin.png)
+
+---
+
+## ⬇️ Fall Time Analysis
+
+### 2-Fin
+![Fall 2 Fin](images/fall_2fin.png)
+
+### 4-Fin
+![Fall 4 Fin](images/fall_4fin.png)
+
+---
+
+## 📊 Performance Comparison
+
+| Design | Rise Time | Fall Time  |
+|--------|-----------|------------|
+| 2-Fin  | 19.0 ps   | 15.40 ps   |
+| 4-Fin  | 13.0 ps   | 11.57 ps   |
+
+---
 
 ## 🧩 Layout Design
-- FinFET inverter layout created using multi-fin structure
-- Comparison between 2-fin and 4-fin designs
+![Layout](images/Inverter Layout.png)
 
-## 📊 Analysis Performed
-### 1. Rise Time and Fall Time
-- Measured output transition characteristics
-- Observed improvement with increased fins
+---
 
-### 2. 2-Fin vs 4-Fin Comparison
-- 4-fin shows higher drive strength
-- Reduced delay compared to 2-fin
+## ✅ DRC Verification
+![DRC](images/DRC.png)
 
-### 3. CMOS (45nm) vs FinFET
-- FinFET shows better control over short channel effects
-- Improved switching performance
+No design rule violations found.
 
-## 📷 Layout & Waveforms
-(Add your images here)
+---
+
+## 🔗 LVS Verification
+![LVS](images/LVS.png)
+
+Layout matches schematic successfully.
 
 ## 📈 Key Observations
 - Increasing number of fins improves current driving capability
