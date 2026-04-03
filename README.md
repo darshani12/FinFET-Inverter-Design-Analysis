@@ -15,7 +15,7 @@ A comparison is performed between:
 The inverter is implemented using FinFET PMOS and NMOS transistors.
 
 ## 📊 Transient Analysis
-![Transient](images/Transient analysis of cmos inverter.png)
+![Transient](images/Transient)
 
 The output waveform confirms correct inverter operation:
 - Input HIGH → Output LOW  
