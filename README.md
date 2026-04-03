@@ -47,6 +47,12 @@ The output waveform confirms correct inverter operation:
 | 4-Fin  | 13.0 ps   | 11.57 ps   |
 
 ---
+## 📈 Propagation Delay Observation
+
+- 2-fin inverter shows propagation delay of 3.6 ps  
+- 4-fin inverter shows propagation delay of 1.43 ps  
+
+Increasing the number of fins improves drive strength, resulting in faster charging/discharging of the load capacitance and reduced propagation delay.
 
 ## 🧩 Layout Design
 ![Layout](images/Inverter Layout.png)
