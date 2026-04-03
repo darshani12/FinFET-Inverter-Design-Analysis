@@ -10,7 +10,7 @@ A comparison is performed between:
 - Cadence Virtuoso
 
 ## ⚡ Circuit Schematic
-![Schematic](images/schematic.png)
+![Schematic](images/schematic.jpeg)
 
 The inverter is implemented using FinFET PMOS and NMOS transistors.
 
