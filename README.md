@@ -9,6 +9,14 @@ A comparison is performed between:
 ## ⚙️ Tools Used
 - Cadence Virtuoso
 
+## ⚡ Circuit Schematic
+![Schematic](images/schematic.png)
+
+The inverter is implemented using FinFET PMOS and NMOS transistors.
+
+---
+
+
 ## 🧩 Layout Design
 - FinFET inverter layout created using multi-fin structure
 - Comparison between 2-fin and 4-fin designs
