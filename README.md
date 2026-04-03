@@ -50,10 +50,27 @@ The output waveform confirms correct inverter operation:
 ## 📈 Propagation Delay Observation
 
 - 2-fin inverter shows propagation delay of 3.6 ps  
-- 4-fin inverter shows propagation delay of 1.43 ps  
+- 4-fin inverter shows propagation delay of 1.43 ps
 
-Increasing the number of fins improves drive strength, resulting in faster charging/discharging of the load capacitance and reduced propagation delay.
+ ## 📉 Delay vs Number of Fins
 
+![Delay vs Fins](images/delay_vs_fins.png)
+
+### 📌 Observation
+Propagation delay decreases significantly as the number of fins increases.  
+This is due to higher drive current and improved switching capability in multi-fin devices.
+
+---
+## ⚖️ CMOS vs FinFET Comparison
+
+| Technology | Rise Time | Fall Time | Propagation Delay |
+|------------|----------|----------|------------------|
+| 45nm CMOS  | (fill)   | (fill)   | (fill)           |
+| FinFET (2-Fin) | 19 ps | 15 ps | 3.6 ps |
+| FinFET (4-Fin) | 13 ps | 11 ps | 1.43 ps |
+
+### 📌 Observation
+FinFET technology shows lower propagation delay and improved switching performance compared to conventional 45nm CMOS due to better electrostatic control and reduced short-channel effects.
 ## 🧩 Layout Design
 ![Layout](images/InverterLayout.png)
 
